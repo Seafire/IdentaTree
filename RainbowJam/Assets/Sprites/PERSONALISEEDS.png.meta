@@ -1,0 +1,198 @@
+fileFormatVersion: 2
+guid: 433c62757f8baab4faf2af9c2f8cdfd6
+timeCreated: 1472827342
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PERSONALISEEDS_0
+    21300002: PERSONALISEEDS_1
+    21300004: PERSONALISEEDS_2
+    21300006: PERSONALISEEDS_3
+    21300008: PERSONALISEEDS_32
+    21300010: PERSONALISEEDS_33
+    21300012: PERSONALISEEDS_34
+    21300014: PERSONALISEEDS_35
+    21300016: PERSONALISEEDS_36
+    21300018: PERSONALISEEDS_37
+    21300020: PERSONALISEEDS_38
+    21300022: PERSONALISEEDS_39
+    21300024: PERSONALISEEDS_4
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: PERSONALISEEDS_0
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 679
+        width: 398
+        height: 273
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PERSONALISEEDS_1
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 667
+        width: 412
+        height: 273
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PERSONALISEEDS_2
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 678
+        width: 396
+        height: 257
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PERSONALISEEDS_3
+      rect:
+        serializedVersion: 2
+        x: 1678
+        y: 910
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PERSONALISEEDS_32
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 518
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PERSONALISEEDS_33
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 211
+        width: 414
+        height: 263
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PERSONALISEEDS_34
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 211
+        width: 419
+        height: 271
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PERSONALISEEDS_35
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 204
+        width: 479
+        height: 311
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PERSONALISEEDS_36
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 466
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PERSONALISEEDS_37
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 456
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PERSONALISEEDS_38
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 444
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PERSONALISEEDS_39
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 362
+        width: 36
+        height: 81
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PERSONALISEEDS_4
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 895
+        width: 296
+        height: 177
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
