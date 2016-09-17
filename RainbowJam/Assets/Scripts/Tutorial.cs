@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Tutorial : MonoBehaviour 
+public class Tutorial : AudioMaster 
 {
 	private PauseScreen pause; 
 
@@ -42,16 +42,19 @@ public class Tutorial : MonoBehaviour
 		{
 			tutorialImage[0].position = new Vector3 (gameObject.transform.position.x, Screen.height * 2, gameObject.transform.position.z);
 			tutorialImage[1].position = new Vector3 (gameObject.transform.position.x, Screen.height / 2, gameObject.transform.position.z);
+			PlayEvent ("Button_Select");
 		}
 		else if (tutorialImage [1].position.y < Screen.height) 
 		{
 			tutorialImage[1].position = new Vector3 (gameObject.transform.position.x, Screen.height * 2, gameObject.transform.position.z);
 			tutorialImage[2].position = new Vector3 (gameObject.transform.position.x, Screen.height / 2, gameObject.transform.position.z);
+			PlayEvent ("Button_Select");
 		}
 		else if (tutorialImage [2].position.y < Screen.height) 
 		{
 			tutorialImage[2].position = new Vector3 (gameObject.transform.position.x, Screen.height * 2, gameObject.transform.position.z);
 			TutorialSkipButton.transform.position = new Vector3 (gameObject.transform.position.x, Screen.height * 2, gameObject.transform.position.z);
+			PlayEvent ("Button_Select");
 			pause.gamePaused = false;
 		}
 	}

@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1461357257	Music_Level_01			\Default Work Unit\Music\Music_Level_01	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	642830705	Identitree_song_LATEST_PLACEHOLDER_LOOPER	C:\Users\Shane\Documents\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\.cache\Windows\SFX\Music\Identitree_song_LATEST_PLACEHOLDER_LOOPER_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Level_01\Identitree_song_LATEST_PLACEHOLDER_LOOPER\Identitree_song_LATEST_PLACEHOLDER_LOOPER		3225664
+

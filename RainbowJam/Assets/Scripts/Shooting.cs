@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Shooting : MonoBehaviour 
+public class Shooting : AudioMaster 
 {
 	public GameObject loveBomb;
 	public float fireDelay = 0.5f;
@@ -31,6 +31,7 @@ public class Shooting : MonoBehaviour
 					coolDownTimer = fireDelay;
 
 					Instantiate (loveBomb, transform.position, transform.rotation);
+					PlayEvent ("PowerUp_Shoot");
 				}
 			}
 			else

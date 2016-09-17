@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{08DD9D0F-8202-48CE-887E-8325725F0E72}" SchemaVersion="72">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{08DD9D0F-8202-48CE-887E-8325725F0E72}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Music" ID="{92BA1CF1-2829-43A8-B4D4-DDE28451CCAA}" ShortID="4110950">
+					<ChildrenList>
+						<Event Name="Music_Level_01" ID="{73B8AC46-30D4-4A5E-8976-2638B2BCF527}">
+							<ChildrenList>
+								<Action Name="Play" ID="{B790A155-175A-47EB-B328-573C41265978}" ShortID="420123342" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{EDB013E5-30CF-4836-94D3-06F6EF0E78FE}" Global="false">
+											<ObjectRef Name="Music_Level_01" ID="{2618FE2C-3EC7-4FAA-95D3-DB0D207DAE24}" WorkUnitID="{254DF661-959E-421F-AF63-48D07925B570}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="GameOVer" ID="{B0F46FFE-D14B-489B-921F-BBA0E5DEE46E}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Menu" ID="{37B6FFEA-4394-4225-BFDB-E0C514BE8CBF}" ShortID="31881468"/>
+				<Folder Name="UI" ID="{E351BF4E-10D3-4424-8ED9-69CA34797272}" ShortID="353847758">
+					<ChildrenList>
+						<Event Name="Points_Positive" ID="{60803749-D444-4E88-9CC4-DC094E93D427}">
+							<ChildrenList>
+								<Action Name="Play" ID="{ED8FA53C-0A21-4196-87DC-42BAF9BD62A1}" ShortID="224228018" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{15351F60-0192-45C3-BAA4-302762A6B31E}" Global="false">
+											<ObjectRef Name="Points_Positive" ID="{77A330B8-5DF0-4330-9A55-1AFF93A57E29}" WorkUnitID="{29B364B3-52BB-4C1A-88EF-56929A1BB324}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Points_Negative" ID="{FCF66DB4-808D-40D1-B117-5126110BC2AC}">
+							<ChildrenList>
+								<Action Name="Play" ID="{ED2C4249-FE09-42A5-8026-9B17CE9D870B}" ShortID="936446824" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{69CA7D49-23F9-4179-AD51-1D894545BEB8}" Global="false">
+											<ObjectRef Name="Points_Negative" ID="{60A42F11-AE87-44F0-80DC-57CC8EFA6211}" WorkUnitID="{29B364B3-52BB-4C1A-88EF-56929A1BB324}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Level_Complete" ID="{9EB8E980-83A7-4997-B8A3-9D242F066F87}"/>
+						<Event Name="Tree_Full" ID="{A0291D3E-4B4A-4BD8-AAB2-3D3D29A9830F}">
+							<ChildrenList>
+								<Action Name="Play" ID="{6CBAB247-6C84-4AEA-8A22-30D6057F136A}" ShortID="240128782" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{1AF690F0-2997-48E9-B2E0-291951974CCD}" Global="false">
+											<ObjectRef Name="TreeFull" ID="{CD36D845-7440-46BF-8145-240997422211}" WorkUnitID="{29B364B3-52BB-4C1A-88EF-56929A1BB324}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Button_Select" ID="{699FA7E5-CEEE-44C1-B481-28CE32E9D1CE}">
+							<ChildrenList>
+								<Action Name="Play" ID="{CD1F4D19-379E-4930-9BEF-0094E5324FA6}" ShortID="551611542" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{5330DBAE-EC5B-4195-9BC8-81D51BC8237C}" Global="false">
+											<ObjectRef Name="Button_Selection" ID="{366118F9-DA1F-4256-B258-CF6DEB157C48}" WorkUnitID="{29B364B3-52BB-4C1A-88EF-56929A1BB324}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="PickUps" ID="{1FB702F3-B295-4652-BE2F-5F4DCFAE1599}" ShortID="277730351">
+					<ChildrenList>
+						<Event Name="PowerUp_Collect" ID="{13BF0997-99A6-4E5D-AB82-AB118F15A891}">
+							<ChildrenList>
+								<Action Name="Play" ID="{11D8273D-FFF8-4669-A11B-A14F72ECC9F8}" ShortID="664517365" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{BB56B30B-B5D5-48AF-823C-48E80B0C351F}" Global="false">
+											<ObjectRef Name="PowerUp_Collect" ID="{38110FF3-88A1-4120-AE1D-20831B78940E}" WorkUnitID="{29B364B3-52BB-4C1A-88EF-56929A1BB324}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PowerUp_Shoot" ID="{7BD69614-FC7D-479F-B9B9-17C01DAE7754}">
+							<ChildrenList>
+								<Action Name="Play" ID="{D9F369D7-19EE-467D-AC1B-2F1D1DFD47DE}" ShortID="537443347" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{89E47DFE-0E08-40DA-85B8-5D740AFFA125}" Global="false">
+											<ObjectRef Name="PowerUp_Shoot" ID="{D8531AF9-4B0E-4C47-8816-096A26772CA9}" WorkUnitID="{29B364B3-52BB-4C1A-88EF-56929A1BB324}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PickUp_Collect" ID="{E2FDA884-A47D-4B66-8C40-59967E3EDF37}">
+							<ChildrenList>
+								<Action Name="Play" ID="{AA3B96FA-18F0-44B8-9C16-951293A220A6}" ShortID="1046558270" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{6AFAEBA7-5E82-47E0-B48E-5C9925DF2DC0}" Global="false">
+											<ObjectRef Name="PickUp_Collect" ID="{AD34F907-C82B-49EE-94BF-E2E57D98455B}" WorkUnitID="{29B364B3-52BB-4C1A-88EF-56929A1BB324}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PickUp_OnTree" ID="{EFE45F51-176F-4E03-9A86-64A28AC93224}">
+							<ChildrenList>
+								<Action Name="Play" ID="{41E59333-88A6-4CB4-9DA5-DDF793E5A88D}" ShortID="811466841" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{4E52795A-A19C-4988-A2EC-0D59EDEC9849}" Global="false">
+											<ObjectRef Name="PickUp_OnTree" ID="{B4FA67B5-6F18-48F5-86E7-1471D6888848}" WorkUnitID="{29B364B3-52BB-4C1A-88EF-56929A1BB324}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{EF76B17C-5CC6-4B3D-BED7-2722E467382A}" ShortID="257651811" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.25"/>
+										<Property Name="FadeCurve" Type="int16" Value="1"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{83136C4C-4DFB-4A2E-9B4C-54CE9A6975B7}" Global="false">
+											<ObjectRef Name="Points_Positive" ID="{77A330B8-5DF0-4330-9A55-1AFF93A57E29}" WorkUnitID="{29B364B3-52BB-4C1A-88EF-56929A1BB324}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{8F0C378E-0B7F-4B05-9BF4-F3710D37601E}" ShortID="887356263" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{6B329FDA-088B-483E-A9E0-A0A0ED9E0B59}" Global="false">
+											<ObjectRef Name="PickUp_Collect" ID="{AD34F907-C82B-49EE-94BF-E2E57D98455B}" WorkUnitID="{29B364B3-52BB-4C1A-88EF-56929A1BB324}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Enemies" ID="{4B5F4EDC-8339-4A97-BD71-FBC46AD97F52}" ShortID="815897728">
+					<ChildrenList>
+						<Event Name="Enemy_OnTree" ID="{E538FB97-2DA4-403B-A715-795AEE3FCC2C}">
+							<ChildrenList>
+								<Action Name="Play" ID="{DB1D6A15-1AC8-43E5-B7CC-3F260C8CCF61}" ShortID="106330262" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{BA09EDF6-F92C-48F7-97B1-59C254062B48}" Global="false">
+											<ObjectRef Name="Enemy_Seed_Hit_Tree" ID="{53CF6792-34B2-4FB3-B2DE-86FE694C2B21}" WorkUnitID="{29B364B3-52BB-4C1A-88EF-56929A1BB324}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{E27499AE-8CD5-441B-994C-DB7E5E700445}" ShortID="606269001" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{B6F147FF-E251-43F5-9F88-CEDFC98A647D}" Global="false">
+											<ObjectRef Name="Explosive" ID="{9E293CCE-1B98-4A86-B1EE-B3C7A6E06CEF}" WorkUnitID="{29B364B3-52BB-4C1A-88EF-56929A1BB324}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{34361CF5-F948-4113-9DDD-566663F774F0}" ShortID="744616460" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="FadeCurve" Type="int16" Value="1"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{37A8748D-CC26-414D-BEBF-8874C7F78C3B}" Global="false">
+											<ObjectRef Name="Points_Negative" ID="{60A42F11-AE87-44F0-80DC-57CC8EFA6211}" WorkUnitID="{29B364B3-52BB-4C1A-88EF-56929A1BB324}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="CloudRainDrop_OnPlayer" ID="{80E15C61-A913-4227-AA5C-AD128EE3774A}">
+							<ChildrenList>
+								<Action Name="Play" ID="{7187995C-2E15-42A8-8E62-3BFD54842639}" ShortID="228026830" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{50DFFB02-85A1-4E4E-9F66-9D3C79064D34}" Global="false">
+											<ObjectRef Name="Damage_RainHitPlayer" ID="{943098BA-2429-4904-855D-9974F342B107}" WorkUnitID="{29B364B3-52BB-4C1A-88EF-56929A1BB324}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{10C1C984-3500-4367-84B8-38A2514856B6}" ShortID="569410551" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{1C9F281A-B133-4B0A-AE8D-68A8EB07DE2F}" Global="false">
+											<ObjectRef Name="CloudRainDrop_OnPlayer" ID="{F5CD8979-28D8-4358-ABD5-756634A53B51}" WorkUnitID="{29B364B3-52BB-4C1A-88EF-56929A1BB324}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enemy_Shot_Impact" ID="{1A903D28-3D74-40C4-A956-66FD274C497C}">
+							<ChildrenList>
+								<Action Name="Play" ID="{D38FBAF3-C486-4566-9556-59A8E8AAF98C}" ShortID="179232128" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.05"/>
+										<Property Name="FadeCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.05"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{586C443E-8A75-4D21-A6EE-52FF5DCCE4B1}" Global="false">
+											<ObjectRef Name="Explosive" ID="{9E293CCE-1B98-4A86-B1EE-B3C7A6E06CEF}" WorkUnitID="{29B364B3-52BB-4C1A-88EF-56929A1BB324}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Play" ID="{60C698DC-90B5-499D-83BA-B47BB056BA91}" ShortID="786363292" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{D3AEF98E-E3EE-4A17-A138-5EEF1F0B1C72}" Global="false">
+											<ObjectRef Name="PowerUp_Shoot" ID="{D8531AF9-4B0E-4C47-8816-096A26772CA9}" WorkUnitID="{29B364B3-52BB-4C1A-88EF-56929A1BB324}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

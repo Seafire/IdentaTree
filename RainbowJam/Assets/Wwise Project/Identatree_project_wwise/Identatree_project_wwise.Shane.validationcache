@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="72">
+	<ValidationCacheItem File="C:\Users\Shane\Documents\GitHub\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1201173099" DateHigh="30541146"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\GitHub\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Attenuations\Default Work Unit.wwu" DateLow="3012195822" DateHigh="30541141"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\GitHub\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Audio Devices\Default Work Unit.wwu" DateLow="3011994554" DateHigh="30541141"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\GitHub\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Control Surface Sessions\Default Work Unit.wwu" DateLow="3011994554" DateHigh="30541141"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\GitHub\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Conversion Settings\Default Work Unit.wwu" DateLow="3011797409" DateHigh="30541141"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\GitHub\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Conversion Settings\Factory Conversion Settings.wwu" DateLow="596683484" DateHigh="30533465"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\GitHub\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Dynamic Dialogue\Default Work Unit.wwu" DateLow="3012180920" DateHigh="30541141"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\GitHub\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Effects\Default Work Unit.wwu" DateLow="3013482345" DateHigh="30541141"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\GitHub\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Effects\Factory Effects.wwu" DateLow="597303919" DateHigh="30533465"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\GitHub\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Events\Default Work Unit.wwu" DateLow="1201268002" DateHigh="30541146"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\GitHub\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Game Parameters\Default Work Unit.wwu" DateLow="3012822530" DateHigh="30541141"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\GitHub\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Identatree_project_wwise.Shane.wsettings" DateLow="1276629708" DateHigh="30541146"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\GitHub\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Identatree_project_wwise.wproj" DateLow="3079903642" DateHigh="30541142"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\GitHub\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="3012195822" DateHigh="30541141"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\GitHub\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="3012366285" DateHigh="30541141"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\GitHub\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Mixing Sessions\Default Work Unit.wwu" DateLow="3011797409" DateHigh="30541141"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\GitHub\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Modulators\Default Work Unit.wwu" DateLow="3011974544" DateHigh="30541141"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\GitHub\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Presets\Default Work Unit.wwu" DateLow="3012873326" DateHigh="30541141"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\GitHub\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Queries\Default Work Unit.wwu" DateLow="3013293661" DateHigh="30541141"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\GitHub\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Queries\Factory Queries.wwu" DateLow="597303919" DateHigh="30533465"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\GitHub\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\SoundBanks\Default Work Unit.wwu" DateLow="1201268002" DateHigh="30541146"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\GitHub\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="3013293661" DateHigh="30541141"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\GitHub\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\States\Default Work Unit.wwu" DateLow="3012777450" DateHigh="30541141"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\GitHub\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Switches\Default Work Unit.wwu" DateLow="3012680872" DateHigh="30541141"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\GitHub\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Triggers\Default Work Unit.wwu" DateLow="3011994554" DateHigh="30541141"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\IdentaTree\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="482021743" DateHigh="30541936"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\IdentaTree\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Attenuations\Default Work Unit.wwu" DateLow="4271983840" DateHigh="30541771"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\IdentaTree\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Audio Devices\Default Work Unit.wwu" DateLow="4272043757" DateHigh="30541771"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\IdentaTree\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Control Surface Sessions\Default Work Unit.wwu" DateLow="4272113928" DateHigh="30541771"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\IdentaTree\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Conversion Settings\Default Work Unit.wwu" DateLow="4272163964" DateHigh="30541771"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\IdentaTree\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Conversion Settings\Factory Conversion Settings.wwu" DateLow="4272213877" DateHigh="30541771"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\IdentaTree\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Dynamic Dialogue\Default Work Unit.wwu" DateLow="4272264034" DateHigh="30541771"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\IdentaTree\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Effects\Default Work Unit.wwu" DateLow="4272324077" DateHigh="30541771"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\IdentaTree\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Effects\Factory Effects.wwu" DateLow="4272385655" DateHigh="30541771"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\IdentaTree\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Events\Default Work Unit.wwu" DateLow="481912070" DateHigh="30541936"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\IdentaTree\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Game Parameters\Default Work Unit.wwu" DateLow="4272514926" DateHigh="30541771"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\IdentaTree\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Identatree_project_wwise.Shane.wsettings" DateLow="4074358349" DateHigh="30544116"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\IdentaTree\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Identatree_project_wwise.wproj" DateLow="854010138" DateHigh="30544114"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\IdentaTree\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="515416518" DateHigh="30541920"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\IdentaTree\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="4273345513" DateHigh="30541771"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\IdentaTree\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Mixing Sessions\Default Work Unit.wwu" DateLow="4273422689" DateHigh="30541771"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\IdentaTree\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Modulators\Default Work Unit.wwu" DateLow="4273485191" DateHigh="30541771"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\IdentaTree\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Presets\Default Work Unit.wwu" DateLow="4273685330" DateHigh="30541771"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\IdentaTree\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Queries\Default Work Unit.wwu" DateLow="4273755366" DateHigh="30541771"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\IdentaTree\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Queries\Factory Queries.wwu" DateLow="4273795398" DateHigh="30541771"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\IdentaTree\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\SoundBanks\Default Work Unit.wwu" DateLow="973631970" DateHigh="30541936"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\IdentaTree\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="4273935031" DateHigh="30541771"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\IdentaTree\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\States\Default Work Unit.wwu" DateLow="4273995074" DateHigh="30541771"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\IdentaTree\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Switches\Default Work Unit.wwu" DateLow="4274024980" DateHigh="30541771"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\IdentaTree\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Triggers\Default Work Unit.wwu" DateLow="4274100482" DateHigh="30541771"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="4074317859" DateHigh="30541930"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Attenuations\Default Work Unit.wwu" DateLow="4271983840" DateHigh="30541771"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Audio Devices\Default Work Unit.wwu" DateLow="4272043757" DateHigh="30541771"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Control Surface Sessions\Default Work Unit.wwu" DateLow="4272113928" DateHigh="30541771"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Conversion Settings\Default Work Unit.wwu" DateLow="4272163964" DateHigh="30541771"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Conversion Settings\Factory Conversion Settings.wwu" DateLow="4272213877" DateHigh="30541771"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Dynamic Dialogue\Default Work Unit.wwu" DateLow="4272264034" DateHigh="30541771"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Effects\Default Work Unit.wwu" DateLow="4272324077" DateHigh="30541771"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Effects\Factory Effects.wwu" DateLow="4272385655" DateHigh="30541771"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Events\Default Work Unit.wwu" DateLow="329083788" DateHigh="30541931"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Game Parameters\Default Work Unit.wwu" DateLow="4272514926" DateHigh="30541771"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Identatree_project_wwise.Shane.wsettings" DateLow="365439083" DateHigh="30541931"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Identatree_project_wwise.wproj" DateLow="4273178975" DateHigh="30541771"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="515416518" DateHigh="30541920"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="4273345513" DateHigh="30541771"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Mixing Sessions\Default Work Unit.wwu" DateLow="4273422689" DateHigh="30541771"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Modulators\Default Work Unit.wwu" DateLow="4273485191" DateHigh="30541771"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Presets\Default Work Unit.wwu" DateLow="4273685330" DateHigh="30541771"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Queries\Default Work Unit.wwu" DateLow="4273755366" DateHigh="30541771"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Queries\Factory Queries.wwu" DateLow="4273795398" DateHigh="30541771"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\SoundBanks\Default Work Unit.wwu" DateLow="515371612" DateHigh="30541920"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="4273935031" DateHigh="30541771"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\States\Default Work Unit.wwu" DateLow="4273995074" DateHigh="30541771"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Switches\Default Work Unit.wwu" DateLow="4274024980" DateHigh="30541771"/>
+	<ValidationCacheItem File="C:\Users\Shane\Documents\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\Triggers\Default Work Unit.wwu" DateLow="4274100482" DateHigh="30541771"/>
+</ValidationCache>

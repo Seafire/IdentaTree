@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D5727840-7C6A-470A-809F-19054F14DDE4}" SchemaVersion="72">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{D5727840-7C6A-470A-809F-19054F14DDE4}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="PickUps_SoundBank" ID="{EF77D088-A3EF-4628-B208-C22B1639EE86}">
+					<ObjectInclusionList>
+						<ObjectRef Name="PowerUp_Shoot" ID="{7BD69614-FC7D-479F-B9B9-17C01DAE7754}" WorkUnitID="{08DD9D0F-8202-48CE-887E-8325725F0E72}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="PickUp_Collect" ID="{E2FDA884-A47D-4B66-8C40-59967E3EDF37}" WorkUnitID="{08DD9D0F-8202-48CE-887E-8325725F0E72}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="PickUp_OnTree" ID="{EFE45F51-176F-4E03-9A86-64A28AC93224}" WorkUnitID="{08DD9D0F-8202-48CE-887E-8325725F0E72}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="PowerUp_Collect" ID="{13BF0997-99A6-4E5D-AB82-AB118F15A891}" WorkUnitID="{08DD9D0F-8202-48CE-887E-8325725F0E72}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Music_Level_01_SoundBank" ID="{C054879C-10F9-4B42-B64A-09E76B5FFCC1}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Music_Level_01" ID="{73B8AC46-30D4-4A5E-8976-2638B2BCF527}" WorkUnitID="{08DD9D0F-8202-48CE-887E-8325725F0E72}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Menu_SoundBank" ID="{5937503D-3B3A-464B-BE9D-D3A905711F5D}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Enemy_SoundBank" ID="{B09A0322-D705-41F5-A027-E35FABEC2C2F}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Enemy_OnTree" ID="{E538FB97-2DA4-403B-A715-795AEE3FCC2C}" WorkUnitID="{08DD9D0F-8202-48CE-887E-8325725F0E72}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Enemy_Shot_Impact" ID="{1A903D28-3D74-40C4-A956-66FD274C497C}" WorkUnitID="{08DD9D0F-8202-48CE-887E-8325725F0E72}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="CloudRainDrop_OnPlayer" ID="{80E15C61-A913-4227-AA5C-AD128EE3774A}" WorkUnitID="{08DD9D0F-8202-48CE-887E-8325725F0E72}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="UI_SoundBank" ID="{CEF72953-D1CC-4F4D-AF91-946C6FF41506}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Points_Negative" ID="{FCF66DB4-808D-40D1-B117-5126110BC2AC}" WorkUnitID="{08DD9D0F-8202-48CE-887E-8325725F0E72}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Button_Select" ID="{699FA7E5-CEEE-44C1-B481-28CE32E9D1CE}" WorkUnitID="{08DD9D0F-8202-48CE-887E-8325725F0E72}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Tree_Full" ID="{A0291D3E-4B4A-4BD8-AAB2-3D3D29A9830F}" WorkUnitID="{08DD9D0F-8202-48CE-887E-8325725F0E72}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Points_Positive" ID="{60803749-D444-4E88-9CC4-DC094E93D427}" WorkUnitID="{08DD9D0F-8202-48CE-887E-8325725F0E72}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

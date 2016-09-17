@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class DestroyBullet : MonoBehaviour 
+public class DestroyBullet : AudioMaster 
 {
 	public float timer = 5.0f;
 	public enum bulletType {playerBullet, rainDrop};
@@ -31,6 +31,7 @@ public class DestroyBullet : MonoBehaviour
 			if (bullet == bulletType.playerBullet) 
 			{
 				Destroy (gameObject);
+				PlayEvent ("Enemy_Shot_Impact");
 			}
 		}
 		if (coll.tag == "Player") 

@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Tree : MonoBehaviour 
+public class Tree : AudioMaster 
 {
 	private Score score;
 	private Animator anim;
@@ -40,6 +40,7 @@ public class Tree : MonoBehaviour
 		else if (score.posScore == 700) 
 		{
 			anim.SetFloat("posScore", 700.0f);
+			PlayEvent ("Tree_Full");
 		}
 	}
 }

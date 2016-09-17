@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PlayerMovement2D : MonoBehaviour 
+public class PlayerMovement2D : AudioMaster 
 {
 	public Sprite playerDown;
 	public Sprite playerDownCarrying;
@@ -211,6 +211,8 @@ public class PlayerMovement2D : MonoBehaviour
 			if(coll.tag == "PowerUpPeanut")
 			{
 				powerUp = coll.GetComponent <PowerUp> ();
+				//PLAY AUDIO - COLLECT POWER UP
+				PlayEvent ("PowerUp_Collect");
 				poweredUpPlayer = true;
 				powerUp.powerUpUsed = false;
 				shoot = true;
@@ -223,6 +225,7 @@ public class PlayerMovement2D : MonoBehaviour
 			{
 				Debug.Log ("I have made it into the Pick up");
 				pickUp = coll.GetComponent <PickUp> ();
+				PlayEvent ("PickUp_Collect");
 				curPickUp = true;
 				pickUpPlayer = true;
 			}
@@ -234,6 +237,8 @@ public class PlayerMovement2D : MonoBehaviour
 			{
 
 				score = coll.GetComponent <Score> ();
+				//PLAY AUDIO - SEED ON TREE
+				PlayEvent ("PickUp_OnTree");
 				
 				if(pickUp.pickedUpBefore == 1)
 				{
@@ -257,6 +262,7 @@ public class PlayerMovement2D : MonoBehaviour
 			{
 				rainDropHit = true;
 				pickUpPlayer = true;
+				PlayEvent ("CloudRainDrop_OnPlayer");
 			}
 		}
 	}

@@ -1,0 +1,16 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1747880148	CloudRainDrop_OnPlayer			\Default Work Unit\Enemies\CloudRainDrop_OnPlayer	
+	1886070995	Enemy_Shot_Impact			\Default Work Unit\Enemies\Enemy_Shot_Impact	
+	3001919793	Enemy_OnTree			\Default Work Unit\Enemies\Enemy_OnTree	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	131909156	SEED_DESTROY_LAYER_04	C:\Users\Shane\Documents\IdentaTree\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\.cache\Windows\SFX\Ambient Events\Explosive\SEED_DESTROY_LAYER_04_D82651E3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Events\Explosive\SEED_DESTROY_LAYER_04		193472
+	264562956	Points_Negative	C:\Users\Shane\Documents\IdentaTree\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\.cache\Windows\SFX\Enemies\Bad_Seeds\SEED_FEED_BAD_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Points_Negative		137216
+	335682215	SEED_DESTROY_LAYER_03	C:\Users\Shane\Documents\IdentaTree\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\.cache\Windows\SFX\Ambient Events\Explosive\SEED_DESTROY_LAYER_03_8BAFA5DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Events\Explosive\SEED_DESTROY_LAYER_03		133184
+	412309865	SEED_DESTROY_LAYER_01	C:\Users\Shane\Documents\IdentaTree\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\.cache\Windows\SFX\Ambient Events\Explosive\SEED_DESTROY_LAYER_01_1E1B0E44.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Events\Explosive\SEED_DESTROY_LAYER_01		127040
+	483176722	Enemy_Seed_Hit_Tree	C:\Users\Shane\Documents\IdentaTree\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\.cache\Windows\SFX\Enemies\Bad_Seeds\ENEMY_SEED_PLANTED_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemy_Seed_Hit_Tree		120128
+	575313401	PowerUp_Shoot	C:\Users\Shane\Documents\IdentaTree\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\.cache\Windows\SFX\PickUps\PowerUps\SEED_POWERUP_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\PickUps\PowerUp_Shoot		126272
+	836780840	CloudRainDrop_OnPlayer	C:\Users\Shane\Documents\IdentaTree\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\.cache\Windows\SFX\Enemies\Rain_Cloud\Player_Hit_By_Rain_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\CloudRainDrop_OnPlayer		125088
+	1013213442	SEED_DESTROY_LAYER_02	C:\Users\Shane\Documents\IdentaTree\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\.cache\Windows\SFX\Ambient Events\Explosive\SEED_DESTROY_LAYER_02_84086097.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Events\Explosive\SEED_DESTROY_LAYER_02		164364
+	1049064819	Damage_RainHitPlayer	C:\Users\Shane\Documents\IdentaTree\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\.cache\Windows\SFX\Enemies\Rain_Cloud\Damage_RainHitPlayer_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Damage_RainHitPlayer		86080
+

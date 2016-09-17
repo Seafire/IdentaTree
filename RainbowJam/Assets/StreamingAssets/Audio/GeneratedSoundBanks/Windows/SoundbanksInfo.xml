@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="118">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Shane\Documents\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Shane\Documents\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Shane\Documents\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Shane\Documents\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="680652643" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music_Level_01_SoundBank</ObjectPath>
+			<ShortName>Music_Level_01_SoundBank</ShortName>
+			<Path>Music_Level_01_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1461357257" Name="Music_Level_01" ObjectPath="\Events\Default Work Unit\Music\Music_Level_01"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="642830705" Language="SFX">
+					<ShortName>Music\Identitree_song_LATEST_PLACEHOLDER_LOOPER.wav</ShortName>
+					<Path>SFX\Music\Identitree_song_LATEST_PLACEHOLDER_LOOPER_4B8CC0C5.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1146882678" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Menu_SoundBank</ObjectPath>
+			<ShortName>Menu_SoundBank</ShortName>
+			<Path>Menu_SoundBank.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1654811218" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\PickUps_SoundBank</ObjectPath>
+			<ShortName>PickUps_SoundBank</ShortName>
+			<Path>PickUps_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2191429798" Name="PickUP_Collect" ObjectPath="\Events\Default Work Unit\PickUps\PickUP_Collect"/>
+				<Event Id="3679524427" Name="PickUp_OnTree" ObjectPath="\Events\Default Work Unit\PickUps\PickUp_OnTree"/>
+				<Event Id="1483123208" Name="PowerUp_Collect" ObjectPath="\Events\Default Work Unit\PickUps\PowerUp_Collect"/>
+				<Event Id="3277421527" Name="PowerUp_Shoot" ObjectPath="\Events\Default Work Unit\PickUps\PowerUp_Shoot"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="164744454" Language="SFX">
+					<ShortName>PickUps\PowerUps\POWERUP_BUBBLE_BURST.wav</ShortName>
+					<Path>SFX\PickUps\PowerUps\POWERUP_BUBBLE_BURST_9E69E797.wem</Path>
+				</File>
+				<File Id="366130996" Language="SFX">
+					<ShortName>PickUps\Seeds\SEED_PICK_UP.wav</ShortName>
+					<Path>SFX\PickUps\Seeds\SEED_PICK_UP_9E69E797.wem</Path>
+				</File>
+				<File Id="575313401" Language="SFX">
+					<ShortName>PickUps\PowerUps\SEED_POWERUP.wav</ShortName>
+					<Path>SFX\PickUps\PowerUps\SEED_POWERUP_9E69E797.wem</Path>
+				</File>
+				<File Id="930535949" Language="SFX">
+					<ShortName>UI\UI_POINTS_POSITIVE.wav</ShortName>
+					<Path>SFX\UI\UI_POINTS_POSITIVE_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1933438525" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Enemy_SoundBank</ObjectPath>
+			<ShortName>Enemy_SoundBank</ShortName>
+			<Path>Enemy_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1747880148" Name="CloudRainDrop_OnPlayer" ObjectPath="\Events\Default Work Unit\Enemies\CloudRainDrop_OnPlayer"/>
+				<Event Id="3001919793" Name="Enemy_OnTree" ObjectPath="\Events\Default Work Unit\Enemies\Enemy_OnTree"/>
+				<Event Id="1886070995" Name="Enemy_Shot_Impact" ObjectPath="\Events\Default Work Unit\Enemies\Enemy_Shot_Impact"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="131909156" Language="SFX">
+					<ShortName>Ambient Events\Explosive\SEED_DESTROY_LAYER_04.wav</ShortName>
+					<Path>SFX\Ambient Events\Explosive\SEED_DESTROY_LAYER_04_D82651E3.wem</Path>
+				</File>
+				<File Id="264562956" Language="SFX">
+					<ShortName>Enemies\Bad_Seeds\SEED_FEED_BAD.wav</ShortName>
+					<Path>SFX\Enemies\Bad_Seeds\SEED_FEED_BAD_9E69E797.wem</Path>
+				</File>
+				<File Id="335682215" Language="SFX">
+					<ShortName>Ambient Events\Explosive\SEED_DESTROY_LAYER_03.wav</ShortName>
+					<Path>SFX\Ambient Events\Explosive\SEED_DESTROY_LAYER_03_8BAFA5DD.wem</Path>
+				</File>
+				<File Id="412309865" Language="SFX">
+					<ShortName>Ambient Events\Explosive\SEED_DESTROY_LAYER_01.wav</ShortName>
+					<Path>SFX\Ambient Events\Explosive\SEED_DESTROY_LAYER_01_1E1B0E44.wem</Path>
+				</File>
+				<File Id="483176722" Language="SFX">
+					<ShortName>Enemies\Bad_Seeds\ENEMY_SEED_PLANTED.wav</ShortName>
+					<Path>SFX\Enemies\Bad_Seeds\ENEMY_SEED_PLANTED_9E69E797.wem</Path>
+				</File>
+				<File Id="575313401" Language="SFX">
+					<ShortName>PickUps\PowerUps\SEED_POWERUP.wav</ShortName>
+					<Path>SFX\PickUps\PowerUps\SEED_POWERUP_9E69E797.wem</Path>
+				</File>
+				<File Id="1013213442" Language="SFX">
+					<ShortName>Ambient Events\Explosive\SEED_DESTROY_LAYER_02.wav</ShortName>
+					<Path>SFX\Ambient Events\Explosive\SEED_DESTROY_LAYER_02_84086097.wem</Path>
+				</File>
+				<File Id="1049064819" Language="SFX">
+					<ShortName>Enemies\Rain_Cloud\Damage_RainHitPlayer.wav</ShortName>
+					<Path>SFX\Enemies\Rain_Cloud\Damage_RainHitPlayer_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="2454045173" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\UI_SoundBank</ObjectPath>
+			<ShortName>UI_SoundBank</ShortName>
+			<Path>UI_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3967362362" Name="Points_Negative" ObjectPath="\Events\Default Work Unit\UI\Points_Negative"/>
+				<Event Id="4013977002" Name="Points_Positive" ObjectPath="\Events\Default Work Unit\UI\Points_Positive"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="264562956" Language="SFX">
+					<ShortName>Enemies\Bad_Seeds\SEED_FEED_BAD.wav</ShortName>
+					<Path>SFX\Enemies\Bad_Seeds\SEED_FEED_BAD_9E69E797.wem</Path>
+				</File>
+				<File Id="930535949" Language="SFX">
+					<ShortName>UI\UI_POINTS_POSITIVE.wav</ShortName>
+					<Path>SFX\UI\UI_POINTS_POSITIVE_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

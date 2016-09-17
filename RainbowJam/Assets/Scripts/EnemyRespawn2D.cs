@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class EnemyRespawn2D : MonoBehaviour
+public class EnemyRespawn2D : AudioMaster
 {
 	public GameObject respawnHeader;
 	private Transform[] respawnPoint;
@@ -53,6 +53,7 @@ public class EnemyRespawn2D : MonoBehaviour
 		if (coll.tag == "Tree")
 		{
 			score = coll.GetComponent<Score> ();
+			PlayEvent ("Enemy_OnTree");
 			score.negScore += 50;
 			treeHit = true;
 		}

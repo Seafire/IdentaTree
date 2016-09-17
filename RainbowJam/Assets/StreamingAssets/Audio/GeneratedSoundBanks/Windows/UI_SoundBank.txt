@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3967362362	Points_Negative			\Default Work Unit\UI\Points_Negative	
+	4013977002	Points_Positive			\Default Work Unit\UI\Points_Positive	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	264562956	Points_Negative	C:\Users\Shane\Documents\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\.cache\Windows\SFX\Enemies\Bad_Seeds\SEED_FEED_BAD_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Points_Negative		137216
+	930535949	Points_Positive	C:\Users\Shane\Documents\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\.cache\Windows\SFX\UI\UI_POINTS_POSITIVE_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Points_Positive		62656
+
