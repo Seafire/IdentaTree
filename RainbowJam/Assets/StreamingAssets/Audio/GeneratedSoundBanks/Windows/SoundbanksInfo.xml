@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="118">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Shane\Documents\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Shane\Documents\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Shane\Documents\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Shane\Documents\IdentaTree\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Shane\Documents\IdentaTree\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Shane\Documents\IdentaTree\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Shane\Documents\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Shane\Documents\IdentaTree\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -40,7 +40,7 @@
 			<ShortName>PickUps_SoundBank</ShortName>
 			<Path>PickUps_SoundBank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2191429798" Name="PickUP_Collect" ObjectPath="\Events\Default Work Unit\PickUps\PickUP_Collect"/>
+				<Event Id="2191429798" Name="PickUp_Collect" ObjectPath="\Events\Default Work Unit\PickUps\PickUp_Collect"/>
 				<Event Id="3679524427" Name="PickUp_OnTree" ObjectPath="\Events\Default Work Unit\PickUps\PickUp_OnTree"/>
 				<Event Id="1483123208" Name="PowerUp_Collect" ObjectPath="\Events\Default Work Unit\PickUps\PowerUp_Collect"/>
 				<Event Id="3277421527" Name="PowerUp_Shoot" ObjectPath="\Events\Default Work Unit\PickUps\PowerUp_Shoot"/>
@@ -98,6 +98,10 @@
 					<ShortName>PickUps\PowerUps\SEED_POWERUP.wav</ShortName>
 					<Path>SFX\PickUps\PowerUps\SEED_POWERUP_9E69E797.wem</Path>
 				</File>
+				<File Id="836780840" Language="SFX">
+					<ShortName>Enemies\Rain_Cloud\Player_Hit_By_Rain.wav</ShortName>
+					<Path>SFX\Enemies\Rain_Cloud\Player_Hit_By_Rain_9E69E797.wem</Path>
+				</File>
 				<File Id="1013213442" Language="SFX">
 					<ShortName>Ambient Events\Explosive\SEED_DESTROY_LAYER_02.wav</ShortName>
 					<Path>SFX\Ambient Events\Explosive\SEED_DESTROY_LAYER_02_84086097.wem</Path>
@@ -113,10 +117,20 @@
 			<ShortName>UI_SoundBank</ShortName>
 			<Path>UI_SoundBank.bnk</Path>
 			<IncludedEvents>
+				<Event Id="1135171848" Name="Button_Select" ObjectPath="\Events\Default Work Unit\UI\Button_Select"/>
 				<Event Id="3967362362" Name="Points_Negative" ObjectPath="\Events\Default Work Unit\UI\Points_Negative"/>
 				<Event Id="4013977002" Name="Points_Positive" ObjectPath="\Events\Default Work Unit\UI\Points_Positive"/>
+				<Event Id="1697344387" Name="Tree_Full" ObjectPath="\Events\Default Work Unit\UI\Tree_Full"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="122699789" Language="SFX">
+					<ShortName>UI\UI_TREEFULL.wav</ShortName>
+					<Path>SFX\UI\UI_TREEFULL_9E69E797.wem</Path>
+				</File>
+				<File Id="186739489" Language="SFX">
+					<ShortName>Menu\GAME_SFX_SELECTION_BUTTON_05.wav</ShortName>
+					<Path>SFX\Menu\GAME_SFX_SELECTION_BUTTON_05_9E69E797.wem</Path>
+				</File>
 				<File Id="264562956" Language="SFX">
 					<ShortName>Enemies\Bad_Seeds\SEED_FEED_BAD.wav</ShortName>
 					<Path>SFX\Enemies\Bad_Seeds\SEED_FEED_BAD_9E69E797.wem</Path>
