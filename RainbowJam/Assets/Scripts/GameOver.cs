@@ -11,6 +11,10 @@ public class GameOver : MonoBehaviour
 	private int maxScore = 1000;
 	private bool gameOver = false;
 	private GameObject[] resetScoreVal;
+
+	public Text posText;
+	public Text negText;
+	public Text totText;
 	// Use this for initialization
 	void Start () 
 	{
@@ -48,12 +52,20 @@ public class GameOver : MonoBehaviour
 		pause.gamePaused = true;
 		gameOver = true;
 
+		posText.text = "Your Positive Score is: " + score.posScore.ToString ();
+		negText.text = "Your Negative Score is: " + score.negScore.ToString ();
+		totText.text = "Your Total Score is: " + score.totalScore.ToString ();
 		// Trans forms UI elements to the aprropiate positions
 		gameObject.transform.position = new Vector3 (gameObject.transform.position.x, Screen.height / 2, gameObject.transform.position.z);
 		scoreDisplay.transform.position = new Vector3 (gameObject.transform.position.x, Screen.height * 2, gameObject.transform.position.z);
 	}
 
 	// If the play again button is pressed
+/*	public void PlayAgainPressed()
+	{
+		Application.LoadLevel (1);
+	}
+*/
 	public void PlayAgainPressed()
 	{
 		for (int i = 0; i < resetScoreVal.Length; i ++) 
@@ -64,10 +76,10 @@ public class GameOver : MonoBehaviour
 		score.totalScore = 0;
 		score.posScore = 0;
 		score.negScore = 0;
-
+		
 		// Move the end game UI element off screen
 		gameObject.transform.position = new Vector3 (gameObject.transform.position.x, Screen.height * 2, gameObject.transform.position.z);
-
+		
 		// Allows the game to continue running
 		gameOver = false;
 		pause.gamePaused = false;
@@ -77,6 +89,6 @@ public class GameOver : MonoBehaviour
 	 public void ReturnToMainMenuPressed()
 	{
 		// Load the main level
-		Application.LoadLevel (0);
+		Application.Quit ();
 	}
 }
