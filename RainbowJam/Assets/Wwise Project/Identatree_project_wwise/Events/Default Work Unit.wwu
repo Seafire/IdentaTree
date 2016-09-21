@@ -8,15 +8,51 @@
 						<Event Name="Music_Level_01" ID="{73B8AC46-30D4-4A5E-8976-2638B2BCF527}">
 							<ChildrenList>
 								<Action Name="Play" ID="{B790A155-175A-47EB-B328-573C41265978}" ShortID="420123342" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
 									<ElementList>
 										<Element ID="{EDB013E5-30CF-4836-94D3-06F6EF0E78FE}" Global="false">
 											<ObjectRef Name="Music_Level_01" ID="{2618FE2C-3EC7-4FAA-95D3-DB0D207DAE24}" WorkUnitID="{254DF661-959E-421F-AF63-48D07925B570}"/>
 										</Element>
 									</ElementList>
 								</Action>
+								<Action Name="Stop" ID="{3242B8F8-5540-4C38-8F8D-479BDB6038D7}" ShortID="19312008" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{645828FF-676A-407C-954A-310779C7067D}" Global="false">
+											<ObjectRef Name="Music_Menu_Loop" ID="{9A71A9F4-355E-4D3C-8890-4A11B548E982}" WorkUnitID="{254DF661-959E-421F-AF63-48D07925B570}"/>
+										</Element>
+									</ElementList>
+								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="GameOVer" ID="{B0F46FFE-D14B-489B-921F-BBA0E5DEE46E}"/>
+						<Event Name="GameOVer" ID="{B0F46FFE-D14B-489B-921F-BBA0E5DEE46E}">
+							<ChildrenList>
+								<Action Name="Play" ID="{C34FB348-A4B6-4E68-BE13-FAA62F861181}" ShortID="552538821" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{C4BBCA88-1FAD-424A-BB90-8B8F9ACCF663}" Global="false">
+											<ObjectRef Name="TreeFull" ID="{CD36D845-7440-46BF-8145-240997422211}" WorkUnitID="{29B364B3-52BB-4C1A-88EF-56929A1BB324}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Music_Menu_Loop" ID="{9C189189-31A9-4543-8C43-5DE9090EC0CA}">
+							<ChildrenList>
+								<Action Name="Play" ID="{0AB4F0A8-7DD3-4DDC-AD59-33D8D7D01F10}" ShortID="581544881" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{43675FC2-C989-4F81-AEF6-7F438A6AF670}" Global="false">
+											<ObjectRef Name="Music_Menu_Loop" ID="{9A71A9F4-355E-4D3C-8890-4A11B548E982}" WorkUnitID="{254DF661-959E-421F-AF63-48D07925B570}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Menu" ID="{37B6FFEA-4394-4225-BFDB-E0C514BE8CBF}" ShortID="31881468"/>

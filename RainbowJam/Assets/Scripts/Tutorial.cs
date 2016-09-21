@@ -56,6 +56,7 @@ public class Tutorial : AudioMaster
 			TutorialSkipButton.transform.position = new Vector3 (gameObject.transform.position.x, Screen.height * 2, gameObject.transform.position.z);
 			PlayEvent ("Button_Select");
 			pause.gamePaused = false;
+			PlayEvent ("Music_Level_01");
 		}
 	}
 }

@@ -18,6 +18,7 @@ namespace AK
         static const AkUniqueID ENEMY_ONTREE = 3001919793U;
         static const AkUniqueID ENEMY_SHOT_IMPACT = 1886070995U;
         static const AkUniqueID MUSIC_LEVEL_01 = 1461357257U;
+        static const AkUniqueID MUSIC_MENU_LOOP = 983318377U;
         static const AkUniqueID PICKUP_COLLECT = 2191429798U;
         static const AkUniqueID PICKUP_ONTREE = 3679524427U;
         static const AkUniqueID POINTS_NEGATIVE = 3967362362U;

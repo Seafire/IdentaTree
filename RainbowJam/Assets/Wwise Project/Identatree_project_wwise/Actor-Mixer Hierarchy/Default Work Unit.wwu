@@ -37,6 +37,9 @@
 											</ModifierList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{2B9F08B7-03E6-4EA0-8443-5FA3304FC1E5}">
@@ -136,6 +139,9 @@
 											</ModifierList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{2B95DE45-8AB6-49B5-8F90-08B14B036521}">
@@ -185,6 +191,9 @@
 											</ModifierList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{68413705-400B-40FA-8603-452D69110894}">
@@ -256,6 +265,13 @@
 				<Folder Name="PickUps" ID="{64936D1F-2AAD-428A-B403-CD951FA1939B}" ShortID="183919731">
 					<ChildrenList>
 						<Sound Name="PickUp_Collect" ID="{AD34F907-C82B-49EE-94BF-E2E57D98455B}" ShortID="3353075" Type="SoundFX">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9B8A0768-5694-46A4-B7BE-0651979D77F0}"/>
@@ -285,6 +301,13 @@
 							</ReferenceList>
 						</Sound>
 						<Sound Name="PowerUp_Collect" ID="{38110FF3-88A1-4120-AE1D-20831B78940E}" ShortID="346304011" Type="SoundFX">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9B8A0768-5694-46A4-B7BE-0651979D77F0}"/>
@@ -304,13 +327,6 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="PowerUp_Shoot" ID="{D8531AF9-4B0E-4C47-8816-096A26772CA9}" ShortID="261149826" Type="SoundFX">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-6</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9B8A0768-5694-46A4-B7BE-0651979D77F0}"/>
@@ -347,7 +363,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-11</Value>
+										<Value>-12</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -451,7 +467,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>6</Value>
+										<Value>2</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>

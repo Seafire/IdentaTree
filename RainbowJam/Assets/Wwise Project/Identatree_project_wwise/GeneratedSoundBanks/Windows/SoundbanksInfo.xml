@@ -17,11 +17,16 @@
 			<Path>Music_Level_01_SoundBank.bnk</Path>
 			<IncludedEvents>
 				<Event Id="1461357257" Name="Music_Level_01" ObjectPath="\Events\Default Work Unit\Music\Music_Level_01"/>
+				<Event Id="983318377" Name="Music_Menu_Loop" ObjectPath="\Events\Default Work Unit\Music\Music_Menu_Loop"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="383693839" Language="SFX">
-					<ShortName>Music\IDENTATREE_MUSIC.wav</ShortName>
-					<Path>SFX\Music\IDENTATREE_MUSIC_4B8CC0C5.wem</Path>
+				<File Id="218500313" Language="SFX">
+					<ShortName>Music\IDENTATREE_MUSIC_LEVEL_LOOP.wav</ShortName>
+					<Path>SFX\Music\IDENTATREE_MUSIC_LEVEL_LOOP_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="354574821" Language="SFX">
+					<ShortName>Music\IDENTATREE_MUSIC_MENU_LOOP.wav</ShortName>
+					<Path>SFX\Music\IDENTATREE_MUSIC_MENU_LOOP_4B8CC0C5.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

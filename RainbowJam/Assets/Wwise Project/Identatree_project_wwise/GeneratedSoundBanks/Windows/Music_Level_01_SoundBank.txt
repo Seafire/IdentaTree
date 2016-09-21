@@ -1,6 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
+	983318377	Music_Menu_Loop			\Default Work Unit\Music\Music_Menu_Loop	
 	1461357257	Music_Level_01			\Default Work Unit\Music\Music_Level_01	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	383693839	New Music Track	C:\Users\Shane\Documents\IdentaTree\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\.cache\Windows\SFX\Music\IDENTATREE_MUSIC_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Level_01\Identitree_song_LATEST_PLACEHOLDER_LOOPER\New Music Track		5529664
+	218500313	IDENTATREE_MUSIC_LEVEL_LOOP	C:\Users\Shane\Documents\IdentaTree\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\.cache\Windows\SFX\Music\IDENTATREE_MUSIC_LEVEL_LOOP_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Level_01\Level_Loop_01\IDENTATREE_MUSIC_LEVEL_LOOP		3456064
+	354574821	IDENTATREE_MUSIC_MENU_LOOP	C:\Users\Shane\Documents\IdentaTree\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\.cache\Windows\SFX\Music\IDENTATREE_MUSIC_MENU_LOOP_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Menu_Loop\Menu_Music\IDENTATREE_MUSIC_MENU_LOOP		1843264
 

@@ -1,12 +1,12 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1483123208	PowerUp_Collect			\Default Work Unit\PickUps\PowerUp_Collect	
-	2191429798	PickUP_Collect			\Default Work Unit\PickUps\PickUP_Collect	
+	2191429798	PickUp_Collect			\Default Work Unit\PickUps\PickUp_Collect	
 	3277421527	PowerUp_Shoot			\Default Work Unit\PickUps\PowerUp_Shoot	
 	3679524427	PickUp_OnTree			\Default Work Unit\PickUps\PickUp_OnTree	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	164744454	PowerUp_Collect	C:\Users\Shane\Documents\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\.cache\Windows\SFX\PickUps\PowerUps\POWERUP_BUBBLE_BURST_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\PickUps\PowerUp_Collect		181196
-	366130996	PickUp_Collect	C:\Users\Shane\Documents\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\.cache\Windows\SFX\PickUps\Seeds\SEED_PICK_UP_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\PickUps\PickUp_Collect		98648
-	575313401	PowerUp_Shoot	C:\Users\Shane\Documents\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\.cache\Windows\SFX\PickUps\PowerUps\SEED_POWERUP_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\PickUps\PowerUp_Shoot		126272
-	930535949	Points_Positive	C:\Users\Shane\Documents\RainbowJam\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\.cache\Windows\SFX\UI\UI_POINTS_POSITIVE_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Points_Positive		62656
+	164744454	PowerUp_Collect	C:\Users\Shane\Documents\IdentaTree\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\.cache\Windows\SFX\PickUps\PowerUps\POWERUP_BUBBLE_BURST_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\PickUps\PowerUp_Collect		181196
+	366130996	PickUp_Collect	C:\Users\Shane\Documents\IdentaTree\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\.cache\Windows\SFX\PickUps\Seeds\SEED_PICK_UP_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\PickUps\PickUp_Collect		98648
+	575313401	PowerUp_Shoot	C:\Users\Shane\Documents\IdentaTree\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\.cache\Windows\SFX\PickUps\PowerUps\SEED_POWERUP_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\PickUps\PowerUp_Shoot		126272
+	930535949	Points_Positive	C:\Users\Shane\Documents\IdentaTree\RainbowJam\Assets\Wwise Project\Identatree_project_wwise\.cache\Windows\SFX\UI\UI_POINTS_POSITIVE_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Points_Positive		62656
 

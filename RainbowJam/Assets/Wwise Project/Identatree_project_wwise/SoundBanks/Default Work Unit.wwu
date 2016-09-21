@@ -15,6 +15,7 @@
 				</SoundBank>
 				<SoundBank Name="Music_Level_01_SoundBank" ID="{C054879C-10F9-4B42-B64A-09E76B5FFCC1}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Music_Menu_Loop" ID="{9C189189-31A9-4543-8C43-5DE9090EC0CA}" WorkUnitID="{08DD9D0F-8202-48CE-887E-8325725F0E72}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Music_Level_01" ID="{73B8AC46-30D4-4A5E-8976-2638B2BCF527}" WorkUnitID="{08DD9D0F-8202-48CE-887E-8325725F0E72}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
