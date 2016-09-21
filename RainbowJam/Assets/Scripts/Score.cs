@@ -7,7 +7,7 @@ public class Score : MonoBehaviour
 {
 	[HideInInspector] public int posScore;
 	[HideInInspector] public int negScore;
-	private int totalScore;
+	[HideInInspector] public int totalScore;
 
 	public Text curScore;
 
