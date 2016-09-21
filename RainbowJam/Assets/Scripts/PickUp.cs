@@ -12,10 +12,11 @@ public class PickUp : MonoBehaviour
 	private Transform[] respawnPoint;
 	
 	[HideInInspector] public bool pickUpUsed;
-	[HideInInspector] public int pickedUpBefore = 0;
+	[HideInInspector] public int pickedUpBefore;
 	[HideInInspector] public bool curPickedUp;
 	protected bool pickUpDropped;
 	private Animator anim;
+	private bool isPickUp;
 	private PlayerMovement2D player;
 	
 	// Use this for initialization
@@ -25,9 +26,11 @@ public class PickUp : MonoBehaviour
 		pickUpUsed = false;
 		pickUpDropped = false;
 		curPickedUp = false;
+		isPickUp = false;
 		respawnPoint = respawnHeader.GetComponentsInChildren<Transform>();
 		player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement2D>();
 		anim = gameObject.GetComponentInChildren <Animator> ();
+		pickedUpBefore = 0;
 
 		
 	}
@@ -35,14 +38,15 @@ public class PickUp : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
+
 		if (pickUpUsed == true) 
 		{
 			anim.SetBool("isPickedUp", false);
 			int sta = Random.Range(0, (respawnPoint.Length));
-			Debug.Log (sta);
+//			Debug.Log (sta);
 			transform.position = respawnPoint[sta].position;
 			pickUpUsed = false;
-			//curPickedUp = false;
+			curPickedUp = false;
 		}
 		
 		if (pickUpDropped == true) 
@@ -52,6 +56,8 @@ public class PickUp : MonoBehaviour
 			transform.position = respawnPoint[sta].position;
 			pickUpDropped = false;
 		}
+
+		PickUpKill();
 		
 	}
 
@@ -60,12 +66,16 @@ public class PickUp : MonoBehaviour
 		//delayTime -= Time.deltaTime;
 		//if(delayTime < 0)
 		//{
-		if (!player.curPickUp && !player.shoot)
+		if (curPickedUp && !player.shoot)
 		{
 			Debug.Log("Hello darkness my old friend");
 			anim.SetBool("isPickedUp", true);
-			pickedUpBefore ++;
-			Debug.Log (pickedUpBefore);
+			if(isPickUp)
+			{
+				pickedUpBefore += 1;
+				isPickUp = false;
+			}
+			//Debug.Log (pickedUpBefore);
 			//curPickedUp = true;
 		}
 		//}
@@ -75,7 +85,7 @@ public class PickUp : MonoBehaviour
 	{
 		if (coll.tag == "Player") 
 		{
-			PickUpKill();
+			isPickUp = true;
 		}
 
 	}

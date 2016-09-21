@@ -20,7 +20,7 @@ public class GameOver : MonoBehaviour
 	{
 		resetScoreVal = GameObject.FindGameObjectsWithTag ("PickUp");
 
-		Debug.Log (resetScoreVal.Length);
+//		Debug.Log (resetScoreVal.Length);
 		gameOverText = GameObject.Find ("GameOver").GetComponent <GameObject> ();
 		//scoreDisplay = GameObject.Find ("ScoreDisplay").GetComponent <GameObject> ();
 		pause = GameObject.FindGameObjectWithTag("PauseScreen").GetComponent<PauseScreen>();
@@ -89,6 +89,6 @@ public class GameOver : MonoBehaviour
 	 public void ReturnToMainMenuPressed()
 	{
 		// Load the main level
-		Application.Quit ();
+		Application.LoadLevel (0);
 	}
 }

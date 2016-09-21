@@ -12,26 +12,26 @@ public class PlayerMovement2D : AudioMaster
 	public float rotSpeed = 180.0f;				// Sets the rotation speed for the player
 
 	private float playerBoundsRad = 1.75f;				// To stop the player going off the screen
-	[HideInInspector] public bool poweredUpPlayer = false;
-	[HideInInspector] public bool pickUpPlayer = false;
-	[HideInInspector] public bool curPickUp = false;
-	[HideInInspector] public bool shoot = false;
+	[HideInInspector] public bool poweredUpPlayer;
+	[HideInInspector] public bool pickUpPlayer;
+	[HideInInspector] public bool curPickUp;
+	[HideInInspector] public bool shoot;
 	[HideInInspector] public float shootTimer = 0.0f;
-	[HideInInspector] public bool rainDropHit = false;
-	private bool pickUpRepeat = false;
+	[HideInInspector] public bool rainDropHit;
+	private bool pickUpRepeat;
 	private int isHappy, isCreative, isLove, isStylish = 0;
 	private PickUp pickUp;
 	private EnemyRespawn2D enemyKill;
 	private PowerUp powerUp;
 	private PauseScreen pauseScreen;
 	private Score score;
-	private float delayTime = 0.1f;
+	private float delayTime;
 	private SpriteRenderer playerSprite;
 	private GameObject eyes;
 
 
-	private float yOld = 0.0f;
-	private float yCurrent = 0.0f;
+	private float yOld;
+	private float yCurrent;
 
 
 	private PickUp.SeedList currentSeed;
@@ -43,6 +43,15 @@ public class PlayerMovement2D : AudioMaster
 		pauseScreen = GameObject.FindGameObjectWithTag("PauseScreen").GetComponent<PauseScreen>();
 		playerSprite = GameObject.Find ("PlayerSprite").GetComponent<SpriteRenderer> ();
 		eyes = GameObject.Find ("Eyes Open");
+		delayTime = 0.1f;
+		yOld = 0.0f;
+		yCurrent = 0.0f;
+		curPickUp = false;
+		shoot = false;
+		pickUpPlayer = false;
+		poweredUpPlayer = false;
+		pickUpRepeat = false;
+		rainDropHit = false;
 		//pickUp = GameObject.FindGameObjectWithTag("PowerUp").GetComponent<PickUp>();
 		//enemyKill = GameObject.FindGameObjectWithTag("Enemy").GetComponent<EnemyRespawn2D>();
 	}
@@ -226,6 +235,7 @@ public class PlayerMovement2D : AudioMaster
 				Debug.Log ("I have made it into the Pick up");
 				pickUp = coll.GetComponent <PickUp> ();
 				PlayEvent ("PickUp_Collect");
+				pickUp.curPickedUp = true;
 				curPickUp = true;
 				pickUpPlayer = true;
 			}
@@ -235,7 +245,6 @@ public class PlayerMovement2D : AudioMaster
 		{
 			if(coll.tag == "Tree")
 			{
-
 				score = coll.GetComponent <Score> ();
 				//PLAY AUDIO - SEED ON TREE
 				PlayEvent ("PickUp_OnTree");
@@ -257,7 +266,6 @@ public class PlayerMovement2D : AudioMaster
 
 		if (coll.tag == "RainDrop") 
 		{
-			Debug.Log ("Hey I'm here!!!");
 			if (poweredUpPlayer || pickUpPlayer)
 			{
 				rainDropHit = true;
