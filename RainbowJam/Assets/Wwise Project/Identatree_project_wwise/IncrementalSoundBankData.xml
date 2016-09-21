@@ -7,7 +7,7 @@
 				<File Name="Init" Hash="3233006009" Timestamp="131175939901374909"/>
 				<File Name="Menu_SoundBank" Hash="615657117" Timestamp="131176538956372367"/>
 				<File Name="Music_Level_01" Hash="310352727" Timestamp="131173221701942466"/>
-				<File Name="Music_Level_01_SoundBank" Hash="3471212472" Timestamp="131175939900170077"/>
+				<File Name="Music_Level_01_SoundBank" Hash="1930799307" Timestamp="131189606030682381"/>
 				<File Name="Music_Menu" Hash="3765298962" Timestamp="131173221701942466"/>
 				<File Name="PickUps_SoundBank" Hash="1413268316" Timestamp="131176616827353505"/>
 				<File Name="Pick_Ups" Hash="1185694659" Timestamp="131173221701546972"/>
@@ -16,7 +16,7 @@
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="228216570" Timestamp="131186041710603025"/>
+				<File Name="" Hash="3142541733" Timestamp="131189606030838754"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

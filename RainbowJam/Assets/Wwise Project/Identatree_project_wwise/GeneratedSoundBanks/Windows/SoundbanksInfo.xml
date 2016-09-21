@@ -19,9 +19,9 @@
 				<Event Id="1461357257" Name="Music_Level_01" ObjectPath="\Events\Default Work Unit\Music\Music_Level_01"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="642830705" Language="SFX">
-					<ShortName>Music\Identitree_song_LATEST_PLACEHOLDER_LOOPER.wav</ShortName>
-					<Path>SFX\Music\Identitree_song_LATEST_PLACEHOLDER_LOOPER_4B8CC0C5.wem</Path>
+				<File Id="383693839" Language="SFX">
+					<ShortName>Music\IDENTATREE_MUSIC.wav</ShortName>
+					<Path>SFX\Music\IDENTATREE_MUSIC_4B8CC0C5.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
