@@ -38,11 +38,12 @@ public class PowerUp : MonoBehaviour
 			int sta = Random.Range(0, (respawnPoint.Length));
 			transform.position = respawnPoint[sta].position;
 			powerUpUsed = false;
+			Debug.Log ("Power Up should respawn");
 		}
 		
 		if (powerUpDropped == true) 
 		{
-			
+			anim.SetBool("isPickedUp", false);
 			int sta = Random.Range(0, (respawnPoint.Length));
 			transform.position = respawnPoint[sta].position;
 			powerUpDropped = false;

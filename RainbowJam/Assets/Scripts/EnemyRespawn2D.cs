@@ -26,7 +26,7 @@ public class EnemyRespawn2D : AudioMaster
 		{
 
 			int sta = Random.Range(0, (respawnPoint.Length));
-			Debug.Log (sta);
+//			Debug.Log (sta);
 			transform.position = respawnPoint[sta].position;
 			treeHit = false;
 		}
@@ -35,7 +35,7 @@ public class EnemyRespawn2D : AudioMaster
 		{
 			
 			int sta = Random.Range(0, (respawnPoint.Length));
-			Debug.Log (sta);
+//			Debug.Log (sta);
 			transform.position = respawnPoint[sta].position;
 			playerHit = false;
 		}

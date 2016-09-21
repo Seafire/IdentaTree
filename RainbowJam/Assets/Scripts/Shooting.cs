@@ -8,11 +8,13 @@ public class Shooting : AudioMaster
 	private float coolDownTimer = 0.0f;
 
 	private PlayerMovement2D playerShoot;
+	public PowerUp powerUp;
 
 	// Use this for initialization
 	void Start () 
 	{
 		playerShoot = GameObject.FindGameObjectWithTag ("Player").GetComponent<PlayerMovement2D> ();
+		//powerUp = GameObject.Find ("PowerUp").GetComponent<PowerUp> ();
 	}
 	
 	// Update is called once per frame
@@ -39,6 +41,7 @@ public class Shooting : AudioMaster
 				Debug.Log("I made it");
 				playerShoot.shoot = false;
 				playerShoot.poweredUpPlayer = false;
+				powerUp.powerUpUsed = true;
 				//playerShoot.shootTimer = 0.0f;
 			}
 		}
