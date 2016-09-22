@@ -66,7 +66,7 @@ public class GameOver : MonoBehaviour
 		Application.LoadLevel (1);
 	}
 */
-	public void PlayAgainPressed()
+/*	public void PlayAgainPressed()
 	{
 		for (int i = 0; i < resetScoreVal.Length; i ++) 
 		{
@@ -85,10 +85,15 @@ public class GameOver : MonoBehaviour
 		pause.gamePaused = false;
 	}
 
+*/
+	public void PlayAgainPressed()
+	{
+		Application.LoadLevel (0);
+	}
 	// Function used to return the game to the main menu
 	 public void ReturnToMainMenuPressed()
 	{
 		// Load the main level
-		Application.LoadLevel (0);
+		Application.Quit ();
 	}
 }

@@ -21,19 +21,21 @@ public class PauseScreen : MonoBehaviour
 		{
 			if (Input.GetKeyDown ("escape")) 
 			{
+				Debug.Log("I should go back to the main menu");
 				// Do pause menu stuff here
-				gamePaused = true;
-				isGamePaused = true;
+				//gamePaused = true;
+				//isGamePaused = true;
+				Application.LoadLevel(0);
 			}
 		} 
-		else 
-		{
-			if (Input.GetKeyDown ("escape")) 
-			{
-				gamePaused = false;
-				isGamePaused = false;
-			}
-		}
+	//	else 
+	//	{
+	//		if (Input.GetKeyDown ("escape")) 
+	//		{
+				//gamePaused = false;
+				//isGamePaused = false;
+			//}
+	//	}
 	}
 
 	public void ResumePressed()
